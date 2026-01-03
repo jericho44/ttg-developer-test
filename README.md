@@ -56,11 +56,18 @@ Cara menjalankan
      - DELETE /users/:id — hapus user
 
    - Contoh request:
+
      ```sh
      curl -X POST http://localhost:3000/users \
        -H "Content-Type: application/json" \
        -d '{"name":"Budi","email":"budi@contoh.com"}'
      ```
+
+   - Dokumentasi Api
+
+   ```sh
+        https://documenter.getpostman.com/view/11245291/2sBXVcksFW
+   ```
 
 2. Frontend
 
